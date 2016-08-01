@@ -9,7 +9,7 @@ process.stdin.on('data',function(data){
 	var cmd = data.toString().trim();
 	var args = null;
 
-
+// this is a work in progress...
 	if (/\|/.test(cmd)){
 		cmdList = cmd.split(" | ");
 		console.log(cmdList);
